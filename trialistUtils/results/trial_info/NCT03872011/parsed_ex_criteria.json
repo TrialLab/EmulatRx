@@ -1,0 +1,38 @@
+[
+    {
+        "text": "Systemic corticosteroid therapy within the last 3 months before septic shock",
+        "parsed_result": "[Annotation] \n<Drug>Systemic corticosteroid therapy</Drug> <Temporal>within the last 3 months</Temporal> <Temporal>before</Temporal> <Condition>septic shock</Condition>"
+    },
+    {
+        "text": "High-dose steroid therapy",
+        "parsed_result": "[Annotation]\n<Value>High-dose</Value> <Drug>steroid</Drug> <Procedure>therapy</Procedure>"
+    },
+    {
+        "text": "Immunosuppression",
+        "parsed_result": "[Annotation]\n<Condition>Immunosuppression</Condition>"
+    },
+    {
+        "text": "Pregnant",
+        "parsed_result": "[Annotation]\n<Condition>Pregnant</Condition>"
+    },
+    {
+        "text": "Known glucose-6 phosphate dehydrogenase (G-6PD) deficiency",
+        "parsed_result": "[Annotation]\n<Condition>glucose-6 phosphate dehydrogenase (G-6PD) deficiency</Condition>"
+    },
+    {
+        "text": "Known hemachromatosis",
+        "parsed_result": "[Annotation]\n<Condition>hemachromatosis</Condition>"
+    },
+    {
+        "text": "Known allergy to vitamin C, hydrocortisone, or thiamine",
+        "parsed_result": "[Annotation] \n<Observation>allergy to vitamin C</Observation>, <Observation>allergy to hydrocortisone</Observation>, or <Observation>allergy to thiamine</Observation>"
+    },
+    {
+        "text": "Anticipated death from a preexisting disease within 90 days after randomization (as determined by the enrolling physician)",
+        "parsed_result": "[Annotation] \n<Condition>Anticipated death</Condition> from a <Condition>preexisting disease</Condition> <Temporal>within 90 days</Temporal> after <Procedure>randomization</Procedure> (as determined by the <Provider>enrolling physician</Provider>)"
+    },
+    {
+        "text": "Refusal of the attending staff or patient family",
+        "parsed_result": "[Annotation]\n<Negation_cue>Refusal</Negation_cue> of the attending <Demographic>staff</Demographic> or <Demographic>patient family</Demographic>"
+    }
+]

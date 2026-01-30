@@ -1,0 +1,26 @@
+[
+    {
+        "text": "Age 18 years old or older",
+        "parsed_result": "[Annotation] \n<Demographic>Age</Demographic> <Value>18 years old or older</Value>",
+        "query_results": [
+            {
+                "stand_name": "Age",
+                "ori_name": "Age",
+                "domain": "Demographic",
+                "concept_id": 4265453
+            }
+        ]
+    },
+    {
+        "text": "Onset of septic shock within 12 hours",
+        "parsed_result": "[Annotation]\n<Condition>septic shock</Condition> <Temporal>Onset</Temporal> <Temporal>within 12 hours</Temporal>",
+        "query_results": [
+            {
+                "stand_name": "Septic shock",
+                "ori_name": "septic shock",
+                "domain": "Condition",
+                "concept_id": 196236
+            }
+        ]
+    }
+]

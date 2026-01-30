@@ -1,0 +1,86 @@
+{
+    "Inclusion Criteria": [
+        "Age 18 years old or older",
+        "Onset of septic shock within 12 hours"
+    ],
+    "Exclusion Criteria": [
+        "Systemic corticosteroid therapy within the last 3 months before septic shock",
+        "High-dose steroid therapy",
+        "Immunosuppression",
+        "Pregnant",
+        "Known glucose-6 phosphate dehydrogenase (G-6PD) deficiency",
+        "Known hemachromatosis",
+        "Known allergy to vitamin C, hydrocortisone, or thiamine",
+        "Anticipated death from a preexisting disease within 90 days after randomization (as determined by the enrolling physician)",
+        "Refusal of the attending staff or patient family"
+    ],
+    "Treatments": [
+        {
+            "label": "Vitamin C,thiamine,hydrocortisone",
+            "type": "EXPERIMENTAL",
+            "description": "The combination of vitamin C, thiamine, hydrocortisone :\n\nVitamin C 2g every 6 hours x 5-days Thiamine 200mg every 12 hours x 5-days Hydrocortisone 200mg as a continuous infusion x 5-days",
+            "interventionNames": [
+                "Drug: Vitamin C,thiamine,hydrocortisone"
+            ],
+            "Participant Group/Arm": "EXPERIMENTAL:Vitamin C,thiamine,hydrocortisone\nThe combination of vitamin C, thiamine, hydrocortisone :\n\nVitamin C 2g every 6 hours x 5-days Thiamine 200mg every 12 hours x 5-days Hydrocortisone 200mg as a continuous infusion x 5-days",
+            "Intervention/Treatment": "DRUG:Vitamin C,thiamine,hydrocortisone\nVitamin C (2g) will be diluted in 100ml 0.9%NACL and administered ivd every 6 hours for 5 days or until participant is discharged from the ICU.\n\nThiamine(200mg) will be diluted in 100ml 0.9%NACL and administered ivd every 12 hours for 5 days or until participant is discharged from the ICU. Hydrocortisone was administered 200 mg/d as a continuous infusion for 5 days or until participant is discharged from the ICU.",
+            "intervention_dict": {
+                "type": "DRUG",
+                "name": "Vitamin C,thiamine,hydrocortisone",
+                "description": "Vitamin C (2g) will be diluted in 100ml 0.9%NACL and administered ivd every 6 hours for 5 days or until participant is discharged from the ICU.\n\nThiamine(200mg) will be diluted in 100ml 0.9%NACL and administered ivd every 12 hours for 5 days or until participant is discharged from the ICU. Hydrocortisone was administered 200 mg/d as a continuous infusion for 5 days or until participant is discharged from the ICU.",
+                "armGroupLabels": [
+                    "Vitamin C,thiamine,hydrocortisone"
+                ],
+                "otherNames": [
+                    "Ascorbic Acid",
+                    "Vitamin B1"
+                ]
+            }
+        },
+        {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Normal Saline Solution (0.9%NaCl) in a volume to match all experimental arm components",
+            "interventionNames": [
+                "Drug: Placebo"
+            ],
+            "Participant Group/Arm": "PLACEBO_COMPARATOR:Placebo\nNormal Saline Solution (0.9%NaCl) in a volume to match all experimental arm components",
+            "Intervention/Treatment": "DRUG:Placebo\nNormal saline (0.9% NaCl solution) volume to match all components",
+            "intervention_dict": {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Normal saline (0.9% NaCl solution) volume to match all components",
+                "armGroupLabels": [
+                    "Placebo"
+                ],
+                "otherNames": [
+                    "Normal saline"
+                ]
+            }
+        }
+    ],
+    "Primary Outcome Measures": [
+        {
+            "Outcome Measure": "90-day mortality",
+            "Measure Description": "Death from any cause at 90 days after the onset of septic shock",
+            "Time Frame": "90 days after randomization"
+        }
+    ],
+    "Secondary Outcome Measures": [
+        {
+            "Outcome Measure": "ICU mortality",
+            "Measure Description": "All-cause mortality at ICU discharge",
+            "Time Frame": "90 days after randomization"
+        },
+        {
+            "Outcome Measure": "Hospital mortality",
+            "Measure Description": "All-cause mortality at hospital discharge",
+            "Time Frame": "90 days after randomization"
+        },
+        {
+            "Outcome Measure": "28-day mortality",
+            "Measure Description": "Death from any cause at 28 days after the onset of septic shock",
+            "Time Frame": "28 days after randomization"
+        }
+    ]
+}

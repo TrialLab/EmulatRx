@@ -1,0 +1,523 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03872011",
+            "orgStudyIdInfo": {
+                "id": "2019KY-145"
+            },
+            "organization": {
+                "fullName": "Northern Jiangsu People's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Vitamin C, Thiamine and Hydrocortisone for the Treatment of Septic Shock",
+            "officialTitle": "Initiation of Vitamin C, Thiamine and Hydrocortisone Therapy for Septic Shock in Adults: A Randomized Clinical Trial"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2021-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-02-19",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2021-09-20",
+                "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+                "date": "2021-09-20",
+                "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2019-03-04",
+            "studyFirstSubmitQcDate": "2019-03-09",
+            "studyFirstPostDateStruct": {
+                "date": "2019-03-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2021-09-21",
+            "lastUpdatePostDateStruct": {
+                "date": "2021-09-23",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Qing-quan Lv",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Northern Jiangsu People's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Northern Jiangsu People's Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to determine whether the combination therapy (vitamin C,thiamine and hydrocortisone) is effective in the treatment of septic shock.",
+            "detailedDescription": "Septic Shock is a leading cause of morbidity and mortality in critically ill patients worldwide.\n\nA potential benefit of vitamin C with thiamine and low-dose hydrocortisone in the treatment of septic shock has recently been described(PMID 27940189) . The patients with septic shock who received this combination of medications weaned off pressors earlier, suffered less organ failure, and had improved mortality. The doses of vitamin C used in this trial are high, yet seemed to be safe and can be considered for use.\n\nIn this randomized controlled trial, we aim to evaluate the effect of the combination therapy (vitamin C,thiamine and hydrocortisone) on septic shock."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Septic Shock"
+            ],
+            "keywords": [
+                "septic shock",
+                "vitamin C",
+                "thiamine",
+                "hydrocortisone",
+                "mortality"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE3"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "QUADRUPLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 408,
+                "type": "ACTUAL"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Vitamin C,thiamine,hydrocortisone",
+                    "type": "EXPERIMENTAL",
+                    "description": "The combination of vitamin C, thiamine, hydrocortisone :\n\nVitamin C 2g every 6 hours x 5-days Thiamine 200mg every 12 hours x 5-days Hydrocortisone 200mg as a continuous infusion x 5-days",
+                    "interventionNames": [
+                        "Drug: Vitamin C,thiamine,hydrocortisone"
+                    ]
+                },
+                {
+                    "label": "Placebo",
+                    "type": "PLACEBO_COMPARATOR",
+                    "description": "Normal Saline Solution (0.9%NaCl) in a volume to match all experimental arm components",
+                    "interventionNames": [
+                        "Drug: Placebo"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Vitamin C,thiamine,hydrocortisone",
+                    "description": "Vitamin C (2g) will be diluted in 100ml 0.9%NACL and administered ivd every 6 hours for 5 days or until participant is discharged from the ICU.\n\nThiamine(200mg) will be diluted in 100ml 0.9%NACL and administered ivd every 12 hours for 5 days or until participant is discharged from the ICU. Hydrocortisone was administered 200 mg/d as a continuous infusion for 5 days or until participant is discharged from the ICU.",
+                    "armGroupLabels": [
+                        "Vitamin C,thiamine,hydrocortisone"
+                    ],
+                    "otherNames": [
+                        "Ascorbic Acid",
+                        "Vitamin B1"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Placebo",
+                    "description": "Normal saline (0.9% NaCl solution) volume to match all components",
+                    "armGroupLabels": [
+                        "Placebo"
+                    ],
+                    "otherNames": [
+                        "Normal saline"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "90-day mortality",
+                    "description": "Death from any cause at 90 days after the onset of septic shock",
+                    "timeFrame": "90 days after randomization"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "ICU mortality",
+                    "description": "All-cause mortality at ICU discharge",
+                    "timeFrame": "90 days after randomization"
+                },
+                {
+                    "measure": "Hospital mortality",
+                    "description": "All-cause mortality at hospital discharge",
+                    "timeFrame": "90 days after randomization"
+                },
+                {
+                    "measure": "28-day mortality",
+                    "description": "Death from any cause at 28 days after the onset of septic shock",
+                    "timeFrame": "28 days after randomization"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 years old or older\n* Onset of septic shock within 12 hours\n\nExclusion Criteria:\n\n* Systemic corticosteroid therapy within the last 3 months before septic shock\n* High-dose steroid therapy\n* Immunosuppression\n* Pregnant\n* Known glucose-6 phosphate dehydrogenase (G-6PD) deficiency\n* Known hemachromatosis\n* Known allergy to vitamin C, hydrocortisone, or thiamine\n* Anticipated death from a preexisting disease within 90 days after randomization (as determined by the enrolling physician)\n* Refusal of the attending staff or patient family",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Qingquan Lyu, Master",
+                    "affiliation": "Northern Jiangsu People's Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Northern Jiangsu Province people's hospital",
+                    "city": "Yangzhou",
+                    "state": "Jiangsu",
+                    "zip": "225000",
+                    "country": "China",
+                    "geoPoint": {
+                        "lat": 32.39722,
+                        "lon": 119.43583
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "36171582",
+                    "type": "DERIVED",
+                    "citation": "Lyu QQ, Zheng RQ, Chen QH, Yu JQ, Shao J, Gu XH. Early administration of hydrocortisone, vitamin C, and thiamine in adult patients with septic shock: a randomized controlled clinical trial. Crit Care. 2022 Sep 28;26(1):295. doi: 10.1186/s13054-022-04175-x."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2025-08-05"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D012772",
+                    "term": "Shock, Septic"
+                },
+                {
+                    "id": "D012769",
+                    "term": "Shock"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D018805",
+                    "term": "Sepsis"
+                },
+                {
+                    "id": "D007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D018746",
+                    "term": "Systemic Inflammatory Response Syndrome"
+                },
+                {
+                    "id": "D007249",
+                    "term": "Inflammation"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M15577",
+                    "name": "Shock",
+                    "asFound": "Shock",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15580",
+                    "name": "Shock, Septic",
+                    "asFound": "Septic Shock",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20864",
+                    "name": "Sepsis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16869",
+                    "name": "Toxemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20818",
+                    "name": "Systemic Inflammatory Response Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10293",
+                    "name": "Inflammation",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D014815",
+                    "term": "Vitamins"
+                },
+                {
+                    "id": "D001205",
+                    "term": "Ascorbic Acid"
+                },
+                {
+                    "id": "D013831",
+                    "term": "Thiamine"
+                },
+                {
+                    "id": "D006854",
+                    "term": "Hydrocortisone"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D018977",
+                    "term": "Micronutrients"
+                },
+                {
+                    "id": "D045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000893",
+                    "term": "Anti-Inflammatory Agents"
+                },
+                {
+                    "id": "D000975",
+                    "term": "Antioxidants"
+                },
+                {
+                    "id": "D045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D020011",
+                    "term": "Protective Agents"
+                },
+                {
+                    "id": "D014803",
+                    "term": "Vitamin B Complex"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M21860",
+                    "name": "Pharmaceutical Solutions",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17558",
+                    "name": "Vitamins",
+                    "asFound": "Every",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4513",
+                    "name": "Ascorbic Acid",
+                    "asFound": "Green",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9912",
+                    "name": "Hydrocortisone",
+                    "asFound": "General anesthesia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M155245",
+                    "name": "Hydrocortisone 17-butyrate 21-propionate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M228609",
+                    "name": "Hydrocortisone acetate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M263259",
+                    "name": "Hydrocortisone hemisuccinate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17546",
+                    "name": "Vitamin B Complex",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16595",
+                    "name": "Thiamine",
+                    "asFound": "Quadratus Lumborum Block",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21009",
+                    "name": "Micronutrients",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16885",
+                    "name": "Trace Elements",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4217",
+                    "name": "Anti-Inflammatory Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4292",
+                    "name": "Antioxidants",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21869",
+                    "name": "Protective Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8618",
+                    "name": "Folic Acid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T477",
+                    "name": "Vitamin C",
+                    "asFound": "Subsequent",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T437",
+                    "name": "Ascorbic Acid",
+                    "asFound": "Green",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T464",
+                    "name": "Thiamin",
+                    "asFound": "Quadratus Lumborum Block",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T465",
+                    "name": "Thiamine",
+                    "asFound": "Quadratus Lumborum Block",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T469",
+                    "name": "Vitamin B1",
+                    "asFound": "BSC",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T475",
+                    "name": "Vitamin B9",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T446",
+                    "name": "Folic Acid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T448",
+                    "name": "Folate",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "PhSol",
+                    "name": "Pharmaceutical Solutions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Micro",
+                    "name": "Micronutrients"
+                },
+                {
+                    "abbrev": "Infl",
+                    "name": "Anti-Inflammatory Agents"
+                },
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "Vi",
+                    "name": "Vitamins"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

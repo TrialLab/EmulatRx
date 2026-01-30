@@ -1,0 +1,11 @@
+[
+    {
+        "ori_dict": {
+            "Outcome Measure": "90-day mortality",
+            "Measure Description": "Death from any cause at 90 days after the onset of septic shock",
+            "Time Frame": "90 days after randomization"
+        },
+        "text": "90-day mortality",
+        "parsed_result": "[Annotation]\n<Temporal>90-day</Temporal> <Condition>mortality</Condition>"
+    }
+]

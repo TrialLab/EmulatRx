@@ -1,0 +1,10 @@
+[
+    {
+        "text": "Age 18 years old or older",
+        "parsed_result": "[Annotation] \n<Demographic>Age</Demographic> <Value>18 years old or older</Value>"
+    },
+    {
+        "text": "Onset of septic shock within 12 hours",
+        "parsed_result": "[Annotation]\n<Condition>septic shock</Condition> <Temporal>Onset</Temporal> <Temporal>within 12 hours</Temporal>"
+    }
+]
