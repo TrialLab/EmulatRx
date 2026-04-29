@@ -4,10 +4,11 @@ from openai.types.beta.threads.message_create_params import (
     AttachmentToolFileSearch,
 )
 
-api_key = "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"
-client = OpenAI(api_key='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',
-                organization='org-p7vlqGOYmscIzHdhbT7MJtEP',
-                project='proj_6EKrvoAglwQOkOMLXTRd0SgD')
+# Your api_key, organization and project
+api_key = ""  
+client = OpenAI(api_key='',
+                organization='',
+                project='')
 
 class OpenaiClient:
     def __init__(self, api_key, organization, project):
