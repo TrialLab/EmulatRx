@@ -27,7 +27,17 @@ git clone [https://github.com/your-username/triallab.git](https://github.com/you
 cd triallab
 ```
 
-### 3. Setting up Local Models (Ollama)
+### 3. Environment Setup
+
+We provide a pinned `environment.yml` file for reproducibility. The environment can be created by running:
+
+```bash
+conda env create -f environment.yml
+conda activate emulatrx
+```
+
+### 4. Setting up Local Models (Ollama)
+
 To use local models like Phi-4 or DeepSeek-R1 as described in the paper, you must install and run Ollama.
 
 1.  **Download Ollama:** Visit ollama.com and install the version for your OS.
@@ -39,7 +49,7 @@ ollama pull phi4
 
 **Verify Server:** Ensure the Ollama server is running (default: localhost:11434). The `llm_zoo_rlhf.py` script connects to this local server automatically.
 
-### 4. API Configuration
+### 5. API Configuration
 Create a `.env` file in the root directory to configure your API keys for cloud models (if used):
 
 ```ini
@@ -62,6 +72,10 @@ jupyter notebook v1-codebase.ipynb
 **Select LLM Backend:** In the configuration cell, you can choose between OpenAI or local Ollama models using the LLMZoo registry:
 
 Run the cells sequentially.
+
+## 🔌 External Services
+
+The framework will use the following external services: the ClinicalTrials.gov API, Ollama Local Server, and the OpenAI API.
 
 ## 📂 Repository Structure
 
